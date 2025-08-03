@@ -1,4 +1,5 @@
-export interface Note {
+export interface NoteType {
   id: string;
-  text: string;
+  title: string;
+  content: string;
 }
