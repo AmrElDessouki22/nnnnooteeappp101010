@@ -1,7 +1,7 @@
 "use client";
 
 import { useContext } from 'react';
-import { NotesContext } from '../context/NotesContext';
+import { NotesContext } from '../contexts/NotesContext';
 import Note from './Note';
 
 const Notes = () => {
