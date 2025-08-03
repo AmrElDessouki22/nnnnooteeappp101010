@@ -33,3 +33,5 @@ export const useNotes = (): NotesContextType => {
   }
   return context;
 };
+
+export default NotesContext;
