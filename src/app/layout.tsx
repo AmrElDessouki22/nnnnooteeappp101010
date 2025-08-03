@@ -6,15 +6,19 @@ import Footer from '../components/ui/Footer';
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <NotesProvider>
-      <div className="flex flex-col min-h-screen">
-        <Header />
-        <main className="flex-grow container mx-auto px-4">
-          {children}
-        </main>
-        <Footer />
-      </div>
-    </NotesProvider>
+    <html lang="en">
+      <body>
+        <NotesProvider>
+          <div className="flex flex-col min-h-screen">
+            <Header />
+            <main className="flex-grow container mx-auto px-4">
+              {children}
+            </main>
+            <Footer />
+          </div>
+        </NotesProvider>
+      </body>
+    </html>
   );
 };
 
